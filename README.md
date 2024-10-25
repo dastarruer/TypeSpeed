@@ -1,3 +1,4 @@
+Note: Original repository is github.com/dastarruer/CS50FinalProject
 # TypeSpeed
 ## Video Demo:
 A video demonstration of the site: https://www.youtube.com/watch?v=zo2WMtJzTBM
