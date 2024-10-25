@@ -1,0 +1,110 @@
+body {
+    background-color: #24273a;
+}
+
+.grid-container {
+    display: grid;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    row-gap: 25px;
+}
+
+.current {
+    background-color: #9399b233;
+    color: #bac2de;
+}
+.typed-correct {
+    color: #a6da95;
+}
+.typed-incorrect {
+    color: #f38ba8;
+}
+
+#logo {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 1rem;
+
+    color: #cba6f7;
+
+    text-align: center;
+}
+
+#words {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #9399b2;
+}
+
+#wpm {
+    grid-row-start: 1;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #cba6f7;
+
+    text-align: center;
+}
+
+#input {
+    grid-row-start: 3;
+}
+
+#inputfield {
+    caret-color: #f4dbd6;
+
+    background-color: #9399b2;
+    color: #45475a;
+
+    font-size: 30px;
+
+    width: 95%;
+    padding: 12px 20px;
+
+    border-radius: 15px;
+    border: 2px #6c7086;
+
+    outline: none;
+}
+
+#inputfield:hover, #inputfield:focus {
+    background-color: #7f849c;
+}
+
+#restart {
+    grid-row-start: 4;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #313244;
+
+    background-color: #585b70;
+    border: #585b70;
+    border-radius: 15px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#restart:hover, #restart:focus {
+    background-color: #cba6f7;
+    outline: none;
+}
